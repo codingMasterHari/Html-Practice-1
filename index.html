@@ -8,33 +8,48 @@
       name="description"
       content="Over here, you will learn how to fix different gaming devices"
     />
+
     <style>
-      /* .product {
-        background-color: gold;
-        width: 300px;
-      } */
-      .highlight {
-        background-color: yellow;
+      .mood {
+        color: blueviolet;
+        font-size: x-small;
       }
+      /* .highlight {
+        background-color: rgb(255, 255, 0);
+      } */
     </style>
 
     <title>HTML and CSS</title>
   </head>
   <body>
-    <!-- <div class="product">
-      <p>Lorem ipsum dolor sit amet.</p>
-      <a href="ExtraPage/indexTwo.html">Click Here</a>
-    </div>
-    <div class="product">
-      <p>Lorem ipsum dolor sit amet.</p>
-      <a href="ExtraPage/indexTwo.html">Click Here</a>
-    </div> -->
-    <p>
-      <span class="highlight">Lorem</span> ipsum dolor sit amet consectetur
-      adipisicing elit. Rem, eveniet?
-    </p>
+    <a href="ExtraPage/indexTwo.html">Click Here</a>
+    <article class="article">
+      <h1>Heading</h1>
+      <p>
+        Published
+        <time datetime="2022-02-09 11:20">February 9 2022 11:20am</time>
+      </p>
+      <p>
+        <mark>Lorem</mark> ipsum dolor sit amet consectetur, adipisicing elit.
+        Debitis ratione aut veniam ipsum beatae quod ducimus itaque dolore
+        minima necessitatibus!
+      </p>
+      <figure>
+        <img src="Images/Overqwil.png" alt="Test Element" />
+        <figcaption class="mood">My mood this morning</figcaption>
+      </figure>
+    </article>
   </body>
 </html>
 
-<!-- DIV is a block-level element -->
-<!-- Span is a Inline element -->
+<!-- 
+GENERIC: 
+- <div></div>
+- <span></span>
+
+SEMANTIC:
+- <article></article>
+- <figure></figure>
+- <mark></mark>
+- <time></time> 
+-->
