@@ -2,6 +2,12 @@ body {
   margin: 10px;
 }
 
-p {
-  color: red;
+#products {
+}
+
+.product {
+}
+
+a[href*="google"] {
+  color: orange;
 }
