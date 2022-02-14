@@ -8,42 +8,27 @@
       name="description"
       content="Over here, you will learn how to fix different gaming devices"
     />
+    <!-- Embedded CSS -->
+    <style>
+      p {
+        color: blue;
+      }
+    </style>
 
-    <style></style>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css" />
 
     <title>HTML and CSS</title>
   </head>
-  <body>
-    <a href="ExtraPage/indexTwo.html"></a>
-    <header>
-      <nav>
-        <ul>
-          <li></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section>
-        <h2>Products</h2>
-        <article></article>
-        <article></article>
-        <article></article>
-      </section>
-      <section>
-        <h2>Testimonial</h2>
-        <article>
-          <section></section>
-          <section></section>
-          <section></section>
-        </article>
-        <article></article>
-      </section>
-    </main>
-    <aside></aside>
-    <footer>
-      <nav>
-        <ul></ul>
-      </nav>
-    </footer>
+  <body style>
+    <!-- Inline CSS -->
+    <p style="color: blue; font-weight: bold">Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
   </body>
 </html>
+
+<!-- Embedded CSS overrides External CSS.
+Inline CSS overrides Embedded css
+
+External -> Embedded -> Inline
+-->
