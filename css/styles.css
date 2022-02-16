@@ -2,12 +2,10 @@ body {
   margin: 10px;
 }
 
-#products {
-}
-
-.product {
-}
-
-a[href*="google"] {
+#products ~ p {
   color: orange;
 }
+
+/* 
+Symbols: > + ~ 
+*/
