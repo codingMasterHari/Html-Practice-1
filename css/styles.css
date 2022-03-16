@@ -1,17 +1,12 @@
-body {
-  margin: 5px;
-  font-family: Georgia, "Times New Roman", Times, serif;
+@font-face {
+  font-family: "opensans";
+  src: url("fonts/open-sans/opensans-regular-webfont.woff2") format("woff2"),
+    url("fonts/open-sans/opensans-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
-/* div,
-.loremOne {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-} */
-
-/* 
-flex-direction:
-    column
-    column-reverse
-    row
-    row-reverse
-*/
+body {
+  margin: 5px;
+  font-family: opensans, Arial, Helvetica, sans-serif;
+}
