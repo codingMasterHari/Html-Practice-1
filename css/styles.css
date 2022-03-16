@@ -4,9 +4,27 @@
     url("fonts/open-sans/opensans-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: "reey";
+  src: url("fonts/open-sans/reey-regular-webfont.woff2") format("woff2"),
+    url("fonts/open-sans/reey-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: fallback;
 }
 
 body {
   margin: 5px;
   font-family: opensans, Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  font-family: reey, Arial, Helvetica, sans-serif;
 }
