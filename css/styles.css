@@ -39,3 +39,9 @@ body {
 h1 {
   font-family: opensans, Arial, Helvetica, sans-serif;
 }
+
+@media screen and (min-width: 400px) {
+  html {
+    font-size: 130%;
+  }
+}
