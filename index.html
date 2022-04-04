@@ -21,20 +21,13 @@
   </head>
   <body>
     <form>
-      <input type="text" />
-      <input type="number" />
-      <input type="password" />
-      <input type="date" />
-      <input
-        type="email"
-        readonly
-        value=""
-        placeholder=""
-        disabled
-        maxlength=""
-        autofocus
-      />
-      <textarea>Comment....</textarea>
+      <input type="text" list="contries" autocomplete="off" />
+      <datalist id="contries">
+        <option data-value="1">Australia</option>
+        <option data-value="2">Canada</option>
+        <option data-value="3">India</option>
+        <option data-value="4">America</option>
+      </datalist>
     </form>
   </body>
 </html>
