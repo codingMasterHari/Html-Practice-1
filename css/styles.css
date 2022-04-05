@@ -11,11 +11,16 @@ body {
   background: gold;
 }
 
-.box:hover {
-  transform: rotate(45deg);
-  transform: scale(1.5);
-  transform: skew(15deg);
-  transform: translate(10px, 10px);
+.container {
+  perspective: 200px;
+}
 
-  transform: translate(10px, 10px) skew(15deg) scale(1.5) rotate(45deg);
+.container:hover .box {
+  /* transform: perspective(200px) translateZ(50px); */
+  transform: rotateY(45deg);
+  transform-origin: 0 50%;
+}
+
+.container:hover .box-special {
+  transform: rotateX(45deg);
 }
